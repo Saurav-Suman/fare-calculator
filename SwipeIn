@@ -1,0 +1,25 @@
+
+function SwipeIn() {
+  
+}
+// Calculate the fare
+// 
+
+
+SwipeIn.prototype.firstin = function(userid) {
+
+	if(User[userid]['balance']<7)
+	{
+		throw new Error("Minimum balance of Rs 7 is required");
+	}
+	else
+	{
+		console.log("entry success");
+	}
+
+	
+    
+};
+
+// 
+module.exports = SwipeIn;
